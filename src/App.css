@@ -4,3 +4,38 @@
   padding: 2rem;
   text-align: center;
 }
+
+.App {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid white;
+  padding: 2.5rem 1.5rem;
+  border-radius: 8px;
+  position: relative;
+}
+
+.progress{
+  position: absolute;
+  top: 1rem;
+  right:1.5rem;
+}
+
+.controller{
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem
+}
+
+.formTitle{
+  text-align: center;
+  margin:0;
+  margin-bottom: 2rem;
+}
+
+.formContent{
+  display: grid;
+  gap: 1rem .5rem;
+  justify-content: flex-start;
+  grid-template-columns: auto minmax(auto,400px);
+}
